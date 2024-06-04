@@ -272,11 +272,20 @@ footer p {
     width: 100%;
   }
 
-  header, nav, ul{
+  nav, ul, li{
     display: none;
   }
 
-  
+  h3{
+    color: var(--verde);
+    margin-top: 20px;
+  }
+
+  .informacao{
+    display: flex;
+    flex-direction: column;
+    
+  }
 
   .apresentacao{
     font-size: 30px;
@@ -284,6 +293,11 @@ footer p {
     justify-content: center;
     align-items: center;
     gap: 12px;  
+    margin-top: -50px;
+  }
+
+  .habilidade{
+    margin-top: -200px;
   }
 
   .title{
