@@ -300,6 +300,11 @@ footer p {
     margin-top: -100px;
   }
 
+  .image-home{
+    width: 180px;
+    height: 230px;
+  }
+
   .habilidade{
     margin-top: -200px;
   }
