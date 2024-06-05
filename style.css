@@ -54,6 +54,10 @@ a:hover {
   
 }
 
+.btn{
+  display: none;
+}
+
 main {
   width: 1200px;
   margin: auto;
@@ -85,8 +89,8 @@ main {
 }
 
 .image-home{
-  width: 170px;
-  height: 220px;
+  width: 300px;
+  height: 350px;
   border-radius: 150px;
 }
 
@@ -277,8 +281,8 @@ footer p {
   }
 
   h3{
-    color: var(--verde);
-    margin-top: 20px;
+    color: var(--branco);
+    margin-top: 100px;
   }
 
   .informacao{
@@ -293,7 +297,7 @@ footer p {
     justify-content: center;
     align-items: center;
     gap: 12px;  
-    margin-top: -50px;
+    margin-top: -100px;
   }
 
   .habilidade{
@@ -326,6 +330,7 @@ footer p {
     flex-direction: column;
   }
 
+ 
   .image-sobre {
     width: 300px;
     height: 300px;
